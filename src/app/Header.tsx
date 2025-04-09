@@ -1,6 +1,8 @@
+import Nav from "../components/Nav.tsx";
+
 const Header = () => (
     <header>
-        <h1>Open Library</h1>
+        <Nav />
     </header>
 );
 
