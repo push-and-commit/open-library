@@ -2,7 +2,7 @@ import {Route, Routes} from "react-router";
 import Layout from "./Layout.tsx";
 import Home from "../pages/Home.tsx";
 import About from "../pages/About.tsx";
-import './App.css'
+// import './App.css'
 
 const App = () => (
     <Routes>
