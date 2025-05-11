@@ -24,6 +24,8 @@ const Nav = () => {
                         placeholder="Search"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
+                        // TODO : useDebounceValue to query on the API
+
                     />
                 </li>
             </ul>
